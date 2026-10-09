@@ -1,0 +1,13 @@
+# LipidZoner 1.1.0 – runtime dependencies
+PySide6>=6.5,<7
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+openpyxl>=3.1
+chardet>=4.0
+
+# Raw mzML peak detection (Detection tab). Optional: without it the
+# "External data import" route (MS-DIAL tables) still works.
+# Runs in a separate process (Alignment_raw_worker.py) because pyOpenMS
+# bundles Qt5, which cannot coexist with PySide6 (Qt6) in one process.
+pyopenms>=2.7

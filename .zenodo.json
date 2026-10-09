@@ -1,0 +1,16 @@
+{
+  "title": "LipidZoner: a GUI for peak detection, annotation and filtering of SFC/MS lipidomics data",
+  "upload_type": "software",
+  "description": "LipidZoner is a PySide6 desktop application for untargeted SFC/MS lipidomics: peak detection and alignment from raw mzML (pyOpenMS), library-based lipid annotation, a chain of filters (internal standard, RT outlier, adduct ion, coherence) that removes false annotations, quant-ion selection per lipid class, and export of per-class peak tables including the LipidQuant input format. Version 1.1.0 is the version used in the accompanying manuscript.",
+  "creators": [
+    {
+      "name": "Nakatani, Kohta",
+      "affiliation": "Research Promotion Center, Faculty of Medicine, Niigata University"
+    }
+  ],
+  "license": "GPL-3.0-or-later",
+  "keywords": ["lipidomics", "mass spectrometry", "supercritical fluid chromatography", "peak annotation", "pyOpenMS", "PySide6"],
+  "version": "1.1.0",
+  "language": "eng",
+  "access_right": "open"
+}
