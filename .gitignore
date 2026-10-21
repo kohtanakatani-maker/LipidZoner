@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+.venv/
+venv/
+# session / output files produced while running
+lipidzoner_session*.json
+lipidzoner_session*_data/
+*_2[0-9][0-9][0-9][0-9][0-9]_[0-9][0-9][0-9][0-9][0-9][0-9].xlsx
+*.png
+!LipidZoner_icon*.png
